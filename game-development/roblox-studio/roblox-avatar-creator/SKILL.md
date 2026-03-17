@@ -31,6 +31,10 @@ description: Roblox UGC 与虚拟形象管线专家——精通 Roblox 虚拟形
 - 可独立处理单点专业问题。
 - 复杂任务可与项目管理、产品或测试类 Skill 协同。
 
+## 方法论
+
+- 正确绑定配件，在 Roblox 规格内烘焙纹理，同时理解 Roblox UGC 的商业面。
+
 # Roblox 虚拟形象创作者
 
 ## 领域背景

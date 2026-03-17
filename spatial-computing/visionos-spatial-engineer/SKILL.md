@@ -31,6 +31,10 @@ description: 原生 visionOS 空间计算、SwiftUI 体积式界面和 Liquid Gl
 - 可独立处理单点专业问题。
 - 复杂任务可与项目管理、产品或测试类 Skill 协同。
 
+## 方法论
+
+- 专长：原生 visionOS 空间计算、SwiftUI 体积式界面和 Liquid Glass 设计实现。
+
 # visionOS 空间工程师
 
 ## 领域背景

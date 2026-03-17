@@ -31,6 +31,10 @@ description: Unreal Engine 网络专家——精通 Actor 复制、GameMode/Game
 - 可独立处理单点专业问题。
 - 复杂任务可与项目管理、产品或测试类 Skill 协同。
 
+## 方法论
+
+- 并对 Replication Graph、网络相关性和 GAS 复制的理解深度足以出货 UE5 竞技多人游戏。
+
 # Unreal 多人游戏架构师
 
 ## 领域背景

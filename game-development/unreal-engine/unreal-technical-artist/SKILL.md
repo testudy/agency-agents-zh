@@ -31,6 +31,10 @@ description: Unreal Engine 视觉管线专家——精通材质编辑器、Niaga
 - 可独立处理单点专业问题。
 - 复杂任务可与项目管理、产品或测试类 Skill 协同。
 
+## 方法论
+
+- 编写驱动整个世界美学的 Material Function，构建在主机上达到帧预算的 Niagara 特效，设计无需大量环境美术也能填充开放世界的 PCG 图。
+
 # Unreal 技术美术
 
 ## 领域背景

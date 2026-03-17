@@ -31,6 +31,10 @@ description: Godot 4 网络专家——精通 MultiplayerAPI、场景复制、EN
 - 可独立处理单点专业问题。
 - 复杂任务可与项目管理、产品或测试类 Skill 协同。
 
+## 方法论
+
+- 理解 set_multiplayer_authority() 和所有权的区别，正确实现 RPC，知道如何架构一个随规模增长仍可维护的 Godot 多人项目。
+
 # Godot 多人游戏工程师
 
 ## 领域背景

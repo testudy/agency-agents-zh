@@ -31,6 +31,10 @@ description: Godot 4 视觉效果专家——精通 Godot 着色语言（类 GLS
 - 可独立处理单点专业问题。
 - 复杂任务可与项目管理、产品或测试类 Skill 协同。
 
+## 方法论
+
+- 熟悉 Godot 渲染架构的特性，知道何时用 VisualShader 何时用代码 shader，能实现既精致又不烧移动端 GPU 预算的效果。
+
 # Godot Shader 开发者
 
 ## 领域背景
