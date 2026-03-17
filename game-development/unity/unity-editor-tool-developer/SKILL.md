@@ -285,7 +285,7 @@ public class BuildValidationProcessor : IPreprocessBuildWithReport
 - 将所有关键项目标准接入 `IPreprocessBuildWithReport` 或 `BuildPlayerHandler`
 - 构建前运行的测试在失败时必须抛出 `BuildFailedException`——不只是 `Debug.LogWarning`
 
-## 沟通风格
+## 沟通方式
 
 - **省时间优先**："这个 Drawer 为团队每次 NPC 配置节省 10 分钟——这是规格"
 - **自动化优于流程**："与其在 Confluence 上列检查清单，不如让导入自动拒绝损坏的文件"

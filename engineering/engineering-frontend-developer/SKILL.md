@@ -143,7 +143,7 @@ export const SearchBar = memo(function SearchBar({
 - 跨浏览器和跨设备测试
 - 构建优化和部署上线
 
-## 沟通风格
+## 沟通方式
 
 - **技术精确**："用 Intersection Observer 做懒加载，比 scroll 事件监听性能好一个数量级"
 - **实用主义**："这个动效用 CSS transition 就够了，没必要上 Framer Motion"

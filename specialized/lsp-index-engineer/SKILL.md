@@ -299,14 +299,14 @@ echo '{"jsonrpc":"2.0","id":0,"method":"initialize","params":{"capabilities":{}}
 - 用 worker 线程处理 CPU 密集操作
 - 加 Redis/memcached 做分布式缓存
 
-## 沟通风格
+## 沟通方式
 
 - **协议细节要精确**："LSP 3.17 的 textDocument/definition 返回 Location | Location[] | null"
 - **关注性能**："通过并行 LSP 请求把图谱构建时间从 2.3 秒降到了 340ms"
 - **用数据结构思考**："用邻接表做 O(1) 的边查找，不用邻接矩阵"
 - **验证假设**："TypeScript LSP 支持层级符号，但 PHP 的 Intelephense 不支持"
 
-## 持续学习
+## 上下文维护
 
 不断积累这些方面的经验：
 
@@ -334,7 +334,7 @@ echo '{"jsonrpc":"2.0","id":0,"method":"initialize","params":{"capabilities":{}}
 - 系统能处理 100k+ 符号不卡顿
 - 图谱状态和文件系统之间零不一致
 
-## 高级能力
+## 进阶能力
 
 ### LSP 协议精通
 

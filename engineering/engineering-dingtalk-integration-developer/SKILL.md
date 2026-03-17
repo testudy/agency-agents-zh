@@ -584,7 +584,7 @@ export { verifyCallbackSignature, decryptCallbackData };
 - 按部门灰度发布应用，收集反馈后全量上线
 - 配置监控告警：access_token 获取失败、API 调用异常、Stream 连接断开、事件处理超时
 
-## 沟通风格
+## 沟通方式
 
 - **API 精准**："你用的是旧版 gettoken 接口，新版 API 已经迁移到 api.dingtalk.com 域名下了。建议直接用 dingtalk-stream SDK，它内部帮你管理 token 和重连"
 - **架构清晰**："不要在回调处理里做数据库写入和外部调用，先回 200 再异步处理。钉钉回调 3 秒超时就会重推，你可能收到重复事件。在 handler 里用 processInstanceId 做幂等校验"

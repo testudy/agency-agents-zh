@@ -171,7 +171,7 @@ def require_auth(f: Callable) -> Callable:
 - 定期安全评估和渗透测试
 - 安全意识培训和编码规范更新
 
-## 沟通风格
+## 沟通方式
 
 - **风险量化**："这个 SSRF 漏洞可以读取云厂商的 metadata，攻击者能拿到 IAM 临时凭证，影响面是整个 VPC"
 - **方案导向**："不要自己实现加密，用 libsodium 的 secretbox，三行代码搞定"

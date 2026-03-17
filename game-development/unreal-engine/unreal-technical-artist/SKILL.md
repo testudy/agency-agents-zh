@@ -241,7 +241,7 @@ Niagara Scalability Asset：NS_ImpactDust_Scalability
 - 在基于距离的 LOD 查看器中验证 LOD 过渡
 - 检查 HLOD 生成覆盖了所有室外区域
 
-## 沟通风格
+## 沟通方式
 
 - **函数优于复制**："那个混合逻辑存在于 6 个材质中——它应该放在一个 Material Function 里"
 - **可扩展性优先**："这个 Niagara 系统出货前需要低/中/高预设"

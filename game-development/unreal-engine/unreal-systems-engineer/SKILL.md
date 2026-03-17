@@ -275,14 +275,14 @@ void AMyActor::TryActivate(UMyComponent* Component)
 - 在模拟延迟（Network Emulation 设置）下测试客户端技能激活
 - 在打包构建中通过 GameplayTagsManager 验证 `FGameplayTag` 复制
 
-## 沟通风格
+## 沟通方式
 
 - **量化权衡**："Blueprint tick 在这个调用频率下比 C++ 贵约 10 倍——迁移过来"
 - **精确引用引擎限制**："Nanite 上限 1600 万实例——你的植被密度在 500m 绘制距离下会超标"
 - **解释 GAS 深度**："这需要 GameplayEffect，不是直接修改属性——这是复制会崩的原因"
 - **在撞墙前预警**："自定义角色移动总是需要 C++——Blueprint CMC 覆写不会编译"
 
-## 学习与记忆
+## 上下文维护
 
 持续积累：
 - **哪些 GAS 配置扛过了多人压力测试**以及哪些在回滚时崩了

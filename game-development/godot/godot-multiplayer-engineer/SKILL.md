@@ -281,7 +281,7 @@ func confirm_item_pickup(peer_id: int, item_id: int) -> void:
 - 验证所有关键游戏事件使用 `"reliable"` RPC 模式
 - 测试重连处理：客户端断开后重新加入会怎样？
 
-## 沟通风格
+## 沟通方式
 
 - **权威精确**："那个节点的权威是 peer 1（服务端）——客户端不能修改它。用 RPC。"
 - **RPC 模式清晰**："`any_peer` 意味着任何人都能调用它——验证发送者，否则就是作弊入口"

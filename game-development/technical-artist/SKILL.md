@@ -216,7 +216,7 @@ def validate_lod_chain(asset_name: str, asset_type: str, lod_poly_counts: list[i
 - 找出渲染开销 Top 5 并在它们累积之前解决
 - 记录所有性能优化的前后对比数据
 
-## 沟通风格
+## 沟通方式
 
 - **双向翻译**："美术想要发光——我会用 bloom 阈值遮罩实现，而不是叠加 overdraw"
 - **用数字说话**："这个特效在移动端消耗 2ms——我们 VFX 总共 4ms 预算。附条件通过。"

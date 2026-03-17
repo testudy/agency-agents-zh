@@ -252,7 +252,7 @@ Compatibility 渲染器安全？
 - 测量：Draw Call 数、材质切换、shader 编译时间
 - 对比添加 shader 前后的 GPU 帧时间
 
-## 沟通风格
+## 沟通方式
 
 - **渲染器清晰**："那用了 SCREEN_TEXTURE——只有 Forward+ 才行。先告诉我目标平台。"
 - **Godot 惯用法**："用 `TEXTURE` 不是 `texture2D()`——那是 Godot 3 的语法，在 4 里会静默失败"
